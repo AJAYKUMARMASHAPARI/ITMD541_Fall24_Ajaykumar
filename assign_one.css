@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.box {
+    width: 50%;
+    height: max-content;
+    background: black;
+    border: 30px solid #005b30;
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: justify;
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
